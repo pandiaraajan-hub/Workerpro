@@ -3,7 +3,7 @@
   "outputDirectory": "dist/public",
   "functions": {
     "api/*.ts": {
-      "runtime": "nodejs18.x"
+      "runtime": "now-php@1.0.0"
     }
   },
   "rewrites": [
