@@ -3,7 +3,7 @@
   "outputDirectory": "dist/public",
   "functions": {
     "api/*.ts": {
-      "runtime": "now-php@1.0.0"
+      "runtime": "@vercel/node@3.0.0"
     }
   },
   "rewrites": [
