@@ -1,0 +1,15 @@
+{
+  "buildCommand": "chmod +x build.sh && ./build.sh",
+  "outputDirectory": "dist/public",
+  "functions": {
+    "api/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index"
+    }
+  ]
+}
